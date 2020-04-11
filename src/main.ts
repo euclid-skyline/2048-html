@@ -252,7 +252,7 @@ function drawTiles () {
                 let numLength = val.toString().length;
                 numLength = numLength < 3? 2: numLength;
                 let size = w/numLength
-                console.log(size.toFixed());
+                // console.log(size.toFixed());
                 context.textAlign = "center";
                 context.textBaseline = "middle"; 
                 context.font = context.font.replace(/\d+px/, size.toFixed()+"px");
